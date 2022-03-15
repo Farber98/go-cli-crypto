@@ -12,7 +12,7 @@ var versionCmd = &cobra.Command{
 	Short: "Crypto CLI app version",
 	Long:  "Crypto CLI app ",
 	Run: func(cmd *cobra.Command, args []string) {
-		fmt.Println("v0.0.1")
+		fmt.Println("v0.0.2")
 	},
 }
 
